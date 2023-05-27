@@ -91,7 +91,8 @@ section {
 }
 
 #intro {
-    min-height: 100vh;
+    min-height: max(100vh, 500px);
+    position: relative;
     background: linear-gradient(#4141413f, #4141413f), url('../images/index1.JPG');
     background-size: cover;
     background-position: 0% 0%;
@@ -518,6 +519,10 @@ footer {
 
     .intro-content h1 {
         font-size: 2.3rem;
+    }
+
+    #intro {
+        background-position: 44% 0%;
     }
 
     section {
